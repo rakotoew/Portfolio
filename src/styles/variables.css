@@ -27,8 +27,8 @@
     --color-light-secondary-accent: #7743DB;
 
 
-    --color-primary: var(--color-pastel-primary);
-    --color-secondary: var(--color-pastel-secondary);
-    --color-accent: var(--color-pastel-primary-accent);
-    --color-accent-secondary: var(--color-pastel-secondary-accent);
+    --color-primary: var(--color-neon-primary);
+    --color-secondary: var(--color-neon-secondary);
+    --color-accent: var(--color-neon-primary-accent);
+    --color-accent-secondary: var(--color-neon-secondary-accent);
 }
