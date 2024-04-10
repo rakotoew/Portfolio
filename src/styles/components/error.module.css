@@ -1,0 +1,43 @@
+.error_page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+
+.error_container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 3em;
+    height: fit-content;
+    border-radius: 10px;
+
+    background: var(--color-secondary);
+
+    box-shadow: 0 0 10px var(--color-secondary);
+}
+
+.error_title{
+    color: var(--color-accent-secondary);
+}
+
+.error_button_container{
+    display: grid;
+}
+
+.error_button{
+    margin-top: 1em;
+    padding: 1em;
+    transition: all .2s ease-in-out;
+    border: none;
+    box-shadow: 0 0 5px var(--color-accent);
+    border-radius: 0.5em;
+    background-color: var(--color-primary);
+}
+
+.error_button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}

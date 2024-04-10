@@ -1,0 +1,16 @@
+{
+    "error": {
+        "404": {
+            "title": "404 error",
+            "description": "Le content you requested does not exists."
+        },
+        "403": {
+            "title": "Access restricted",
+            "description": "You do not have the required permission to access this resource."
+        },
+        "back": "Go back"
+    },
+    "home": {
+        "name": "Ewan Rakotoanosy"
+    }
+}
