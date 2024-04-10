@@ -16,6 +16,16 @@
     --color-pastel-primary-accent: #D0B8A8;
     --color-pastel-secondary-accent: #85586F;
 
+    --color-neon-primary: #1D2B53;
+    --color-neon-secondary: #7E2553;
+    --color-neon-primary-accent: #FF004D;
+    --color-neon-secondary-accent: #FAEF5D;
+
+    --color-light-primary: #FFFBF5;
+    --color-light-secondary: #F7EFE5;
+    --color-light-primary-accent: #C3ACD0;
+    --color-light-secondary-accent: #7743DB;
+
 
     --color-primary: var(--color-pastel-primary);
     --color-secondary: var(--color-pastel-secondary);
