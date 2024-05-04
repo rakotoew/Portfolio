@@ -1,0 +1,19 @@
+.footer_container{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	color: var(--color-secondary);
+	margin-top: 2vh;
+	.lang_button{
+		border-radius: 10px;
+		padding: 0.5rem;
+		border: 1px solid var(--color-secondary);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		.icon {
+			color: var(--color-secondary);
+			width: 20px;
+		}
+	}
+}
