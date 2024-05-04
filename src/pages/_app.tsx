@@ -9,7 +9,6 @@ export default function App({Component, pageProps, router}: AppProps) {
         <>
             <Head>
                 <title>Ewan Rakotoanosy</title>
-
                 <meta name="subject" content="Ewan Rakotoanosy"/>
                 <meta name="description" content="Ewan Rakotoanosy Portfolio"/>
                 <meta name="author" content="Ewan Rakotoanosy"/>
@@ -17,12 +16,12 @@ export default function App({Component, pageProps, router}: AppProps) {
                 <meta property="og:url" content="rakotoew.fr"/>
                 <meta property="og:title" content="Ewan Rakotoanosy"/>
                 <meta property="og:description" content="Ewan Rakotoanosy Portfolio"/>
-                <meta property="og:image" content="/assets/banner.png"/>
+                <meta property="og:image" content="/public/icons/icon-512x512.png"/>
                 <meta property="twitter:card" content="summary_large_image"/>
                 <meta property="twitter:url" content="rakotoew.fr"/>
                 <meta property="twitter:title" content="Ewan Rakotoanosy"/>
                 <meta property="twitter:description" content="Ewan Rakotoanosy Portfolio"/>
-                <meta property="twitter:image" content="/assets/banner.png"/>
+                <meta property="twitter:image" content="/public/icons/icon-512x512.png"/>
             </Head>
             <NextIntlProvider messages={pageProps.messages}>
                 <Component {...pageProps} key={router.route}/>
