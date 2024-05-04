@@ -21,13 +21,16 @@ export default function App({Component, pageProps, router}: AppProps) {
                 <meta property="twitter:url" content="rakotoew.fr" />
                 <meta property="twitter:title" content="Ewan Rakotoanosy" />
                 <meta property="twitter:description" content="Ewan Rakotoanosy Portfolio" />
-                <meta property="twitter:image" content="/public/profile.png" />
+                <meta property="twitter:image" content="/profile.png" />
                 <meta name="viewport" content="width=device-width,initial-scale=1" />
+
                 <link rel="canonical" href="https://rakotoew.fr" />
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" href="/android-chrome-512x512.png" />
+                <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
             </Head>
             <NextIntlProvider messages={pageProps.messages}>
-            <Component {...pageProps} key={router.route}/>
+                <Component {...pageProps} key={router.route}/>
             </NextIntlProvider>
         </>
     );
