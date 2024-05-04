@@ -9,7 +9,7 @@
         object-fit: cover;
         transition: 0.5s;
         margin-right: 1rem;
-        border-radius: 20%;
+        border-radius: 25%;
     }
     .home_container {
         display: flex;
@@ -26,9 +26,9 @@
             display: flex;
             justify-content: space-around;
             width: 100%;
-
             .icon {
                 color: var(--color-secondary);
+                width: 10%;
             }
         }
     }
