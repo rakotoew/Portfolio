@@ -8,12 +8,13 @@
         height: 300px;
         object-fit: cover;
         transition: 0.5s;
-        margin-right: 1rem;
+        margin-right: 3rem;
         border-radius: 25%;
         box-shadow: 0 0 30px 0 var(--color-secondary);
     }
     .profile_picture:hover {
         cursor: pointer;
+        scale: 105%;
     }
     .profile_picture:active {
         box-shadow: 0 0 60px 0 var(--color-secondary);
@@ -25,9 +26,24 @@
         align-items: center;
         .title {
             margin-bottom: 1rem;
-            color: var(--color-accent);
             font-size: 55px;
             cursor: default;
+            
+            animation-name: flicker-in-1;
+            animation-duration: 2s;
+            animation-delay: 0.1s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: 1;
+
+            color: #ffffff;
+            text-shadow:
+                    0 0 7px #fff,
+                    0 0 10px var(--color-secondary),
+                    0 0 21px var(--color-secondary),
+                    0 0 42px var(--color-secondary),
+                    0 0 82px var(--color-accent),
+                    0 0 92px var(--color-accent),
+                    0 0 100px var(--color-accent);
         }
 
         .link_icon_container {
@@ -37,6 +53,10 @@
             .icon {
                 color: var(--color-secondary);
                 width: 10%;
+
+            }
+            .icon:hover {
+                scale: 110%;
             }
         }
     }
@@ -65,22 +85,126 @@
     }
 }
 
-@media screen and (min-width: 600px) and (max-width: 800px)  {
-    .home_page{
-        .profile_picture{
+@media screen and (min-width: 600px) and (max-width: 800px) {
+    .home_page {
+        .profile_picture {
             width: 250px;
             height: 250px;
         }
-        .home_container{
-            .title{
+
+        .home_container {
+            .title {
                 font-size: 40px;
             }
-            .link_icon_container{
+
+            .link_icon_container {
                 width: 80%;
+
                 .icon {
                     width: 15%;
                 }
             }
         }
+    }
+}
+
+/**
+ * ----------------------------------------
+ * @animation flicker-in-1
+ * ----------------------------------------
+ */
+@keyframes flicker-in-1 {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 0;
+    }
+    10.1% {
+        opacity: 1;
+    }
+    10.2% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 0;
+    }
+    20.1% {
+        opacity: 1;
+    }
+    20.6% {
+        opacity: 0;
+    }
+    30% {
+        opacity: 0;
+    }
+    30.1% {
+        opacity: 1;
+    }
+    30.5% {
+        opacity: 1;
+    }
+    30.6% {
+        opacity: 0;
+    }
+    45% {
+        opacity: 0;
+    }
+    45.1% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 1;
+    }
+    55% {
+        opacity: 1;
+    }
+    55.1% {
+        opacity: 0;
+    }
+    57% {
+        opacity: 0;
+    }
+    57.1% {
+        opacity: 1;
+    }
+    60% {
+        opacity: 1;
+    }
+    60.1% {
+        opacity: 0;
+    }
+    65% {
+        opacity: 0;
+    }
+    65.1% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 1;
+    }
+    75.1% {
+        opacity: 0;
+    }
+    77% {
+        opacity: 0;
+    }
+    77.1% {
+        opacity: 1;
+    }
+    85% {
+        opacity: 1;
+    }
+    85.1% {
+        opacity: 0;
+    }
+    86% {
+        opacity: 0;
+    }
+    86.1% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
     }
 }
