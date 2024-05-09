@@ -10,6 +10,14 @@
         transition: 0.5s;
         margin-right: 1rem;
         border-radius: 25%;
+        box-shadow: 0 0 30px 0 var(--color-secondary);
+    }
+    .profile_picture:hover {
+        cursor: pointer;
+    }
+    .profile_picture:active {
+        box-shadow: 0 0 60px 0 var(--color-secondary);
+
     }
     .home_container {
         display: flex;
