@@ -109,3 +109,9 @@ cypress/screenshots/
 cypress/videos/
 
 .swc/
+
+public/sw.js
+public/workbox-*.js
+public/sw.js.map
+
+
