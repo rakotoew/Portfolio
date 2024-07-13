@@ -1,15 +1,17 @@
 .footer_container{
+	position: absolute;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 	color: var(--color-accent);
 	margin-top: 2vh;
+	width: 100%;
 	.filler{
 		width: 30px;
 		margin-right: 10%;
 	}
 	.lang_button{
-		margin-left: 10%;
+		margin-left: 5%;
 		border-radius: 10px;
 		padding: 0.5rem;
 		border: 1px solid var(--color-accent);
