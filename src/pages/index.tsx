@@ -6,14 +6,14 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link";
 import Image from "next/image";
-import { useState } from "react";
-import { router } from "next/client";
+import { useRouter } from "next/router";
 function HomePage(): JSX.Element {
+    const router = useRouter();
     const t = useTranslations("home");
-    const [isFading, setIsFading] = useState(false);
+    let isFading : boolean = false;
 
     const changePage = () => {
-      setIsFading(true);
+      isFading = true;
       setTimeout(() => {
           router.push("/about");
       }, 500);

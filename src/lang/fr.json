@@ -15,6 +15,12 @@
     },
     "footer": {
         "language": "EN"
+    },
+    "about": {
+        "about": {
+            "title": "À propos",
+            "description": "Developpeur Fullstack"
+        }
     }
 }
 
