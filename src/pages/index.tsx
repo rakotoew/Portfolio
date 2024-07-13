@@ -3,14 +3,24 @@ import {useTranslations} from "use-intl";
 import {GetStaticProps} from "next";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope, faGlobe } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link";
 import Image from "next/image";
+import { useState } from "react";
+import { router } from "next/client";
 function HomePage(): JSX.Element {
     const t = useTranslations("home");
+    const [isFading, setIsFading] = useState(false);
+
+    const changePage = () => {
+      setIsFading(true);
+      setTimeout(() => {
+          router.push("/about");
+      }, 500);
+    };
     return (
         <div className={styles.home_page}>
-            <Image className={styles.profile_picture} src="/profile.png" alt="profile picture" width={250} height={250}/>
+            <Image className={styles.profile_picture} src="/profile.png" alt="profile picture" width={250} height={250} onClick={changePage}/>
             <div className={styles.home_container}>
                 <h1 className={styles.title}>{t("name")}</h1>
                 <div className={styles.link_icon_container}>
