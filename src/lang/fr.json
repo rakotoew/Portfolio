@@ -22,8 +22,8 @@
     },
     "about": {
         "about": {
-            "title": "À propos",
-            "description": "Developpeur Fullstack"
+            "name": "Ewan Rakotoanosy",
+            "description": "Développeur Fullstack"
         }
     }
 }

@@ -8,8 +8,8 @@ function AboutMe(): JSX.Element{
     const t = useTranslations("about");
     return (
         <div className={styles.about_page}>
-            <h1>{t("about.title")}</h1>
-            <p>{t("about.description")}</p>
+            <p className={styles.description}>{t("about.description")}</p>
+            <h1 className={styles.name}>{t("about.name")}</h1>
         </div>
     );
 }
