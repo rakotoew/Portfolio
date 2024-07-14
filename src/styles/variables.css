@@ -20,6 +20,7 @@
     --color-neon-secondary: #7E2553;
     --color-neon-primary-accent: #FF004D;
     --color-neon-secondary-accent: #FAEF5D;
+    --color-neon-blue: #1F51FF;
 
     --color-light-primary: #FFFBF5;
     --color-light-secondary: #F7EFE5;
@@ -29,6 +30,7 @@
 
     --color-primary: var(--color-neon-primary);
     --color-secondary: var(--color-neon-secondary);
+    --color-tertiary: var(--color-neon-blue);
     --color-accent: var(--color-neon-primary-accent);
     --color-accent-secondary: var(--color-neon-secondary-accent);
 }
