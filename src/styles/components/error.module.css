@@ -23,6 +23,11 @@
     color: var(--color-accent-secondary);
 }
 
+.error_description {
+    color: var(--color-accent-secondary);
+    margin-top: 1em;
+}
+
 .error_button_container{
     display: grid;
 }
@@ -34,7 +39,8 @@
     border: none;
     box-shadow: 0 0 5px var(--color-accent);
     border-radius: 0.5em;
-    background-color: var(--color-primary);
+    background-color: var(--color-accent-secondary);
+    color: var(--color-secondary);
 }
 
 .error_button:hover{
