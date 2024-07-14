@@ -4,6 +4,7 @@ import Head from "next/head";
 import {NextIntlProvider} from "next-intl";
 import {GetStaticProps} from "next";
 import Footer from "@components/Footer";
+import Header from "@components/Header";
 
 export default function App({Component, pageProps, router}: AppProps) {
     return (
@@ -31,6 +32,7 @@ export default function App({Component, pageProps, router}: AppProps) {
 
             </Head>
             <NextIntlProvider messages={pageProps.messages}>
+                <Header />
                 <Component {...pageProps} key={router.route}/>
                 <Footer />
             </NextIntlProvider>

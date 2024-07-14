@@ -16,6 +16,10 @@
     "footer": {
         "language": "FR"
     },
+    "header": {
+        "back": "[GO BACK]",
+        "b4ck": "[G0 B4CK]"
+    },
     "about": {
         "about": {
             "title": "About me",
