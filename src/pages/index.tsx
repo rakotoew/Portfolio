@@ -20,7 +20,7 @@ function HomePage(): JSX.Element {
     };
     return (
         <div className={styles.home_page}>
-            <Image className={styles.profile_picture} src="/profile.png" alt="profile picture" width={250} height={250} onClick={changePage}/>
+            <Image className={styles.profile_picture} src="/profile.png" alt="profile picture" width={2500} height={2500} onClick={changePage}/>
             <div className={styles.home_container}>
                 <h1 className={styles.title}>{t("name")}</h1>
                 <div className={styles.link_icon_container}>
