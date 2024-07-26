@@ -36,9 +36,13 @@
 		justify-content: center;
 		justify-items: center;
 		grid-auto-rows: min-content;
-		gap: 12px;
-		padding: 12px;
+		gap: 0.8rem;
 		position: relative;
 		grid-template-columns: repeat(2, minmax(200px, 1fr));
+	}
+	@media screen and (max-width: 600px){
+		.card_container{
+			grid-template-columns: repeat(1, minmax(200px, 1fr));
+		}
 	}
 }

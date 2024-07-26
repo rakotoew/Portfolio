@@ -24,6 +24,22 @@
         "about": {
             "name": "Ewan Rakotoanosy",
             "description": "Fullstack Developer"
+        },
+        "card1": {
+            "title": "About me",
+            "description": ""
+        },
+        "card2": {
+            "title": "Experience",
+            "description": ""
+        },
+        "card3": {
+            "title": "Tech Stack",
+            "description": ""
+        },
+        "card4": {
+            "title": "Contact",
+            "description": ""
         }
     }
 }

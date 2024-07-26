@@ -12,8 +12,10 @@ function AboutMe(): JSX.Element{
             <p className={styles.description}>{t("about.description")}</p>
             <h1 className={styles.name}>{t("about.name")}</h1>
             <div className={styles.card_container}>
-                <Card title="about" description="blablablabla" imagePath="/profile.png"/>
-                <Card title="about" description="blablablabla" imagePath="/profile.png"/>
+                <Card title={t("card1.title")} description={t("card1.description")} imagePath="/profile.png"/>
+                <Card title={t("card2.title")} description={t("card2.description")} imagePath="/profile.png"/>
+                <Card title={t("card3.title")} description={t("card3.description")} imagePath="/profile.png"/>
+                <Card title={t("card4.title")} description={t("card4.description")} imagePath="/profile.png"/>
             </div>
         </div>
     );
