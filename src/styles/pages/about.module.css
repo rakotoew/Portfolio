@@ -4,6 +4,7 @@
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
+	width: 100%;
 	.description {
 		text-align: center;
 		margin-top: 6rem;
@@ -27,5 +28,17 @@
 				0 0 21px var(--color-tertiary),
 				0 0 42px var(--color-tertiary),
 				0 0 82px var(--color-tertiary);
+	}
+	.card_container{
+		width: 100%;
+		display: grid;
+		flex: none;
+		justify-content: center;
+		justify-items: center;
+		grid-auto-rows: min-content;
+		gap: 12px;
+		padding: 12px;
+		position: relative;
+		grid-template-columns: repeat(2, minmax(200px, 1fr));
 	}
 }
