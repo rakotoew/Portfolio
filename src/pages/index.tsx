@@ -1,4 +1,4 @@
-import styles from "@styles/pages/home.module.css";
+import styles from "@styles/pages/index.module.css";
 import {useTranslations} from "use-intl";
 import {GetStaticProps} from "next";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -15,7 +15,7 @@ function HomePage(): JSX.Element {
     const changePage = () => {
       isFading = true;
       setTimeout(() => {
-          router.push("/about");
+          router.push("/home");
       }, 500);
     };
     return (
