@@ -14,7 +14,7 @@ function Home(): JSX.Element{
             <div className={styles.card_container}>
                 <Card title={t("card1.title")} description={t("card1.description")} imagePath="/professionnal_cropped.png"/>
                 <Card title={t("card2.title")} description={t("card2.description")} imagePath="/profile.png"/>
-                <Card title={t("card3.title")} description={t("card3.description")} imagePath="/stack-apps-layers.svg"/>
+                <Card title={t("card3.title")} description={t("card3.description")} imagePath="/framework-laptop.jpg"/>
                 <Card title={t("card4.title")} description={t("card4.description")} imagePath="/profile.png"/>
             </div>
         </div>
