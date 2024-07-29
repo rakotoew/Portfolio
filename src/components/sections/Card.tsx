@@ -1,14 +1,23 @@
 import styles from "@styles/components/card.module.css";
 import Image from "next/image";
+import { useRouter } from "next/router";
 
 interface CardProps {
     title:string;
     description:string;
     imagePath:string;
+    link:string;
 }
 export default function Card( card:CardProps ): JSX.Element {
+    const router = useRouter();
+
+    const changePage = () => {
+        setTimeout(() => {
+            router.push(card.link);
+        }, 500);
+    };
     return (
-        <div className={styles.card}>
+        <div className={styles.card} onClick={changePage}>
             <div className={styles.image_container}>
                 <Image width={1000} height={1000} className={styles.image} src={card.imagePath} alt={card.title}/>
             </div>

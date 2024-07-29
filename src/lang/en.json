@@ -41,5 +41,12 @@
             "title": "Contact",
             "description": ""
         }
+    },
+    "stack": {
+        "title": "Tech Stack",
+        "lang": "Languages",
+        "frameworks": "Frameworks",
+        "database": "Database",
+        "tools": "Tools"
     }
 }

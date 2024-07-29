@@ -26,7 +26,7 @@
             "description": "Développeur Fullstack"
         },
         "card1": {
-            "title": "About me",
+            "title": "A propos",
             "description": ""
         },
         "card2": {
@@ -41,6 +41,13 @@
             "title": "Contact",
             "description": ""
         }
+    },
+    "stack": {
+        "title": "Tech Stack",
+        "lang": "Languages",
+        "frameworks": "Frameworks",
+        "database": "Base de données",
+        "tools": "Outils"
     }
 }
 
