@@ -4,6 +4,7 @@ import Head from "next/head";
 import {NextIntlProvider} from "next-intl";
 import {GetStaticProps} from "next";
 import Footer from "@components/Footer";
+import Header from "@components/Header";
 
 export default function App({Component, pageProps, router}: AppProps) {
     return (
@@ -17,12 +18,12 @@ export default function App({Component, pageProps, router}: AppProps) {
                 <meta property="og:url" content="rakotoew.fr" />
                 <meta property="og:title" content="Ewan Rakotoanosy" />
                 <meta property="og:description" content="Ewan Rakotoanosy Portfolio" />
-                <meta property="og:image" content="/public/profile.png" />
+                <meta property="og:image" content="/public/android-chrome-512x512.png" />
                 <meta property="twitter:card" content="summary_large_image" />
                 <meta property="twitter:url" content="rakotoew.fr" />
                 <meta property="twitter:title" content="Ewan Rakotoanosy" />
                 <meta property="twitter:description" content="Ewan Rakotoanosy Portfolio" />
-                <meta property="twitter:image" content="/profile.png" />
+                <meta property="twitter:image" content="/android-chrome-512x512.png" />
                 <meta name="viewport" content="width=device-width,initial-scale=1" />
 
                 <link rel="canonical" href="https://rakotoew.fr" />
@@ -31,6 +32,7 @@ export default function App({Component, pageProps, router}: AppProps) {
 
             </Head>
             <NextIntlProvider messages={pageProps.messages}>
+                <Header />
                 <Component {...pageProps} key={router.route}/>
                 <Footer />
             </NextIntlProvider>

@@ -15,5 +15,38 @@
     },
     "footer": {
         "language": "FR"
+    },
+    "header": {
+        "back": "[GO BACK]",
+        "b4ck": "[G0 B4CK]"
+    },
+    "about": {
+        "about": {
+            "name": "Ewan Rakotoanosy",
+            "description": "Fullstack Developer"
+        },
+        "card1": {
+            "title": "About me",
+            "description": ""
+        },
+        "card2": {
+            "title": "Experience",
+            "description": ""
+        },
+        "card3": {
+            "title": "Tech Stack",
+            "description": ""
+        },
+        "card4": {
+            "title": "Contact",
+            "description": ""
+        }
+    },
+    "stack": {
+        "title": "Tech Stack",
+        "lang": "Languages",
+        "frameworks": "Frameworks",
+        "database": "Database",
+        "tools": "Tools"
     }
 }

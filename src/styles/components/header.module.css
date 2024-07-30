@@ -1,0 +1,28 @@
+.header_container{
+	position: fixed;
+	top: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+	z-index: 1;
+	background-color: var(--color-primary);
+	box-shadow: var(--color-primary) -1px 5px 10px;
+	.back{
+		margin-left: 1em;
+		color: var(--color-accent);
+		cursor: pointer;
+		font-weight: bold;
+	}
+	.image{
+		margin-left: 1em;
+		cursor: pointer;
+	}
+	.icon {
+		color: var(--color-accent);
+		width: 40px;
+		margin-right: 1.4em;
+		cursor: pointer;
+	}
+}
+
