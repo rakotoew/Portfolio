@@ -1,19 +1,28 @@
 import { GetStaticProps } from "next";
 import { useTranslations } from "use-intl";
+import styles from "@styles/pages/stacks.module.css";
+import Image from "next/image";
 
 function Stack(): JSX.Element {
     const t = useTranslations("stack");
     return (
-        <div>
-            <h1>{t("title")}</h1>
-            <h2>{t("lang")}</h2>
-            <div></div>
-            <h2>{t("frameworks")}</h2>
-            <div></div>
-            <h2>{t("database")}</h2>
-            <div></div>
-            <h2>{t("tools")}</h2>
-            <div></div>
+        <div className={styles.stacks_page}>
+            <h1 className={styles.title}>{t("title")}</h1>
+            <h2 className={styles.categorie_title}>{t("lang")}</h2>
+            <div className={styles.categorie_container}>
+            </div>
+            <h2 className={styles.categorie_title}>{t("frameworks")}</h2>
+            <div className={styles.categorie_container}>
+
+            </div>
+            <h2 className={styles.categorie_title}>{t("database")}</h2>
+            <div className={styles.categorie_container}>
+
+            </div>
+            <h2 className={styles.categorie_title}>{t("tools")}</h2>
+            <div className={styles.categorie_container}>
+
+            </div>
         </div>
     );
 }
