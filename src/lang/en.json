@@ -14,13 +14,13 @@
         "name": "Ewan Rakotoanosy"
     },
     "footer": {
-        "language": "FR"
+        "language": "EN"
     },
     "header": {
         "back": "[GO BACK]",
         "b4ck": "[G0 B4CK]"
     },
-    "about": {
+    "index": {
         "about": {
             "name": "Ewan Rakotoanosy",
             "description": "Fullstack Developer"

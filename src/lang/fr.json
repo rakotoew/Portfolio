@@ -14,13 +14,13 @@
         "name": "Ewan Rakotoanosy"
     },
     "footer": {
-        "language": "EN"
+        "language": "FR"
     },
     "header": {
         "back": "[GO BACK]",
         "b4ck": "[G0 B4CK]"
     },
-    "about": {
+    "index": {
         "about": {
             "name": "Ewan Rakotoanosy",
             "description": "Développeur Fullstack"
@@ -44,7 +44,7 @@
     },
     "stack": {
         "title": "Tech Stack",
-        "lang": "Languages",
+        "lang": "Langages",
         "frameworks": "Frameworks",
         "database": "Base de données",
         "tools": "Outils"
