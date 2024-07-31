@@ -48,5 +48,12 @@
         "frameworks": "Frameworks",
         "database": "Database",
         "tools": "Tools"
+    },
+    "about": {
+        "name": "Ewan Rakotoanosy",
+        "text": "Work in progress"
+    },
+    "experiences": {
+        "text": "Work in progress"
     }
 }
