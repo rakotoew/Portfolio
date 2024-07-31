@@ -1,0 +1,12 @@
+.experiences_container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	.text{
+		text-align: center;
+		margin-top: 15rem;
+		margin-bottom: 30rem;
+		color: var(--color-accent-secondary);
+		font-size: 500%;
+	}
+}
