@@ -5,15 +5,16 @@
 	justify-content: center;
 	width: 100%;
 	.title{
-		font-size: 40px;
+		font-size: 50px;
 		font-weight: bold;
 		margin: 5rem 0 4rem;
 		color: var(--color-accent);
 	}
 	.categorie_title{
 		color: var(--color-accent);
+		text-decoration: underline;
 		text-align: left;
-		font-size: 25px;
+		font-size: 30px;
 		margin: 0;
 	}
 	.categorie_container{
