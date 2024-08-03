@@ -5,7 +5,10 @@ function Experience(): JSX.Element{
     const t = useTranslations("experiences");
     return (
         <div className={styles.experiences_container}>
-            <p className={styles.text}>{t("text")}</p>
+            <h1 className={styles.title}></h1>
+            <div className={styles.experience_list}>
+
+            </div>
         </div>
     );
 }

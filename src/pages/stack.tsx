@@ -1,7 +1,7 @@
 import { GetStaticProps } from "next";
 import { useTranslations } from "use-intl";
 import styles from "@styles/pages/stacks.module.css";
-import CardStack from "@components/sections/CardStack";
+import CardStack from "@components/CardStack";
 
 function Stack(): JSX.Element {
     const t = useTranslations("stack");

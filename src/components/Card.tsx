@@ -8,7 +8,7 @@ interface CardProps {
     imagePath:string;
     link:string;
 }
-export default function Card( card:CardProps ): JSX.Element {
+export default function Card( card: Readonly<CardProps> ): JSX.Element {
     const router = useRouter();
 
     const changePage = () => {

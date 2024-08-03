@@ -1,12 +1,10 @@
-import styles from "@styles/components/header.module.css";
-import { useTranslations } from "use-intl";
+import styles from "@styles/components/sections/header.module.css";
 import { useRouter } from "next/router";
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 export default function Header(): JSX.Element{
-    const t = useTranslations("header");
     const router = useRouter();
     const changePage = () => {
         setTimeout(() => {

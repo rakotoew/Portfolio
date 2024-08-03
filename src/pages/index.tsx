@@ -1,6 +1,6 @@
     import styles from "@styles/pages/index.module.css";
 
-import Card from "@components/sections/Card";
+import Card from "@components/Card";
 import { GetStaticProps } from "next";
 import { useTranslations } from "use-intl";
 import Link from "next/link";

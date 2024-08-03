@@ -8,7 +8,7 @@ interface Props {
     description: string;
 }
 
-export default function Error(props : Props): JSX.Element {
+export default function Error(props : Readonly<Props>): JSX.Element {
 
     const t = useTranslations("error");
 
@@ -22,7 +22,7 @@ export default function Error(props : Props): JSX.Element {
                     {props.description}
                 </p>
                 <div className={styles.error_button_container}>
-                    <Link href="/" className="" scroll={false} onClick={() => window.scrollTo(0, 0)} passHref>
+                    <Link href="/public" className="" scroll={false} onClick={() => window.scrollTo(0, 0)} passHref>
                         <button
                             className={styles.error_button}
                         >

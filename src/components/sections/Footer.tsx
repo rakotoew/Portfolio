@@ -1,9 +1,8 @@
-import styles from "@styles/components/footer.module.css";
+import styles from "@styles/components/sections/footer.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 import { useTranslations } from "use-intl";
 import { useRouter } from "next/router";
-import Link from "next/link";
 export default function Footer() {
     const t = useTranslations("footer");
     const router = useRouter();

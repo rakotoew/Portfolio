@@ -3,8 +3,8 @@ import type {AppProps} from "next/app";
 import Head from "next/head";
 import {NextIntlProvider} from "next-intl";
 import {GetStaticProps} from "next";
-import Footer from "@components/Footer";
-import Header from "@components/Header";
+import Footer from "@components/sections/Footer";
+import Header from "@components/sections/Header";
 
 export default function App({Component, pageProps, router}: AppProps) {
     return (
