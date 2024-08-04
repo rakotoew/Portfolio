@@ -1,19 +1,20 @@
 .card_container{
 	display: flex;
 	padding: 5px;
-	margin-bottom: 1em;
+	margin: 0 5em 1em;
 	max-width: 90%;
+	background-color: var(--color-secondary);
+	border-radius: 1em;
 	.left_part{
 		display: flex;
 		justify-content: center;
 		justify-items: center;
 		flex-direction: column;
 		padding: 1rem;
-		flex: 0 0 150px;
-
+		flex: 0 0 300px;
 
 		.title{
-			color: var(--color-accent);
+			color: var(--color-accent-secondary);
 
 		}
 		.year{
@@ -28,7 +29,6 @@
 		padding: 1rem;
 		flex: 1;
 
-
 		.job{
 			color: var(--color-accent);
 		}
@@ -36,5 +36,26 @@
 			color: var(--color-accent-secondary);
 		}
 	}
+}
 
+
+@media screen and (max-width: 1000px) {
+	.card_container{
+		margin: 0 3em 1em;
+		.left_part{
+			flex: 0 0 150px;
+
+		}
+	}
+}
+
+
+@media screen and (max-width: 800px) {
+	.card_container{
+		margin: 0 1em 1em;
+		.left_part{
+			flex: 0 0 150px;
+
+		}
+}
 }
