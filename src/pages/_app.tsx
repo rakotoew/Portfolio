@@ -5,6 +5,7 @@ import {NextIntlProvider} from "next-intl";
 import {GetStaticProps} from "next";
 import Footer from "@components/sections/Footer";
 import Header from "@components/sections/Header";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function App({Component, pageProps, router}: AppProps) {
     return (
@@ -35,6 +36,7 @@ export default function App({Component, pageProps, router}: AppProps) {
                 <Header />
                 <Component {...pageProps} key={router.route}/>
                 <Footer />
+                <Analytics/>
             </NextIntlProvider>
         </>
     );
