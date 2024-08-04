@@ -54,6 +54,18 @@
         "text": "Work in progress"
     },
     "experiences": {
-        "text": "Work in progress"
+        "title": "Experiences",
+        "exp1": {
+            "title": "CA-TS",
+            "year": "2024",
+            "job": "dev",
+            "description": "lorem ipsum kjasfhalksdhlk asdklhfgaslk aksjdf hkajs aksdjf akljhf jdsahf jka jdsafh akj sjadf hkadsj  jsdfh akjs hd sdjkfh aklsdhf  jkdsfh dakdjfd k jkasddfh asjhdff jkadsfh jadh sjdkafhjahfd adkjfhak jhhsdfjhalkjsfhdkaj akdsf hjdsfa hjkdsah dsajkf jhahdg sdhag fjah hdagsf shdgsjhdgf hjsdg fhadsg fhjasgdf hjasgdf jxhbvnbmzxcbv mxncbv mzxn"
+        },
+        "exp2": {
+            "title": "Credit Agricole Technologies & Services",
+            "year": "2024",
+            "job": "dev",
+            "description": "lorem ipsum kjasfhalksdhlk asdklhfgaslk aksjdf hkajs aksdjf akljhf jdsahf jka jdsafh akj sjadf hkadsj  jsdfh akjs hd sdjkfh aklsdhf  jkdsfh dakdjfd k jkasddfh asjhdff jkadsfh jadh sjdkafhjahfd adkjfhak jhhsdfjhalkjsfhdkaj akdsf hjdsfa hjkdsah dsajkf jhahdg sdhag fjah hdagsf shdgsjhdgf hjsdg fhadsg fhjasgdf hjasgdf jxhbvnbmzxcbv mxncbv mzxn"
+        }
     }
 }

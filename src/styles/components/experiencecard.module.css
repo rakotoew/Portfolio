@@ -1,0 +1,40 @@
+.card_container{
+	display: flex;
+	padding: 5px;
+	margin-bottom: 1em;
+	max-width: 90%;
+	.left_part{
+		display: flex;
+		justify-content: center;
+		justify-items: center;
+		flex-direction: column;
+		padding: 1rem;
+		flex: 0 0 150px;
+
+
+		.title{
+			color: var(--color-accent);
+
+		}
+		.year{
+			color: var(--color-accent-secondary);
+		}
+	}
+	.right_part{
+		justify-content: left;
+		justify-items: left;
+		display: flex;
+		flex-direction: column;
+		padding: 1rem;
+		flex: 1;
+
+
+		.job{
+			color: var(--color-accent);
+		}
+		.description{
+			color: var(--color-accent-secondary);
+		}
+	}
+
+}
