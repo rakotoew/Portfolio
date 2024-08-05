@@ -19,7 +19,7 @@ function Index(): JSX.Element{
                 <Image className={styles.profile_picture} src="/profile.png" alt="profile picture" width={2500} height={2500} />
                 <div className={styles.text_container}>
                     <p className={styles.description}>{t("about.description")}</p>
-                    <h1 className={styles.name}>{t("about.name")}</h1>
+                    <h1 className={styles.name}>Ewan Rakoto<span className={styles.animated_letter}>anosy</span></h1>
                     <div className={styles.link_icon_container}>
                         <Link href="https://www.github.com/rakotoew" className={styles.icon}>
                             <FontAwesomeIcon icon={faGithub} size="3x" />
