@@ -26,10 +26,13 @@
 		}
 		.lang {
 			margin: 0 0 0 0.5rem;
+			font-weight: 500;
+			.lang_bold{
+				font-weight: 700;
+			}
 		}
 	}
 	.lang_button:hover {
 		cursor: pointer;
-		scale: 105%;
 	}
 }

@@ -4,7 +4,6 @@ import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 import { useTranslations } from "use-intl";
 import { useRouter } from "next/router";
 export default function Footer() {
-    const t = useTranslations("footer");
     const router = useRouter();
 
     const changeLanguage = () => {
@@ -20,7 +19,11 @@ export default function Footer() {
             <p>© 2024 Ewan Rakotoanosy</p>
             <div onClick={changeLanguage} className={styles.lang_button}>
                 <FontAwesomeIcon className={styles.icon} icon={faGlobe} size="2x"/>
-                <p className={styles.lang} >{t("language")}</p>
+                {router.locale === "en" ? (
+                    <p className={styles.lang}>FR | <span className={styles.lang_bold}>EN</span></p>
+                ): (
+                    <p className={styles.lang}><span className={styles.lang_bold}>FR</span> | EN</p>
+                )}
             </div>
         </footer>
     );
