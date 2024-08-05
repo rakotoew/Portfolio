@@ -28,6 +28,8 @@ export default function App({Component, pageProps, router}: AppProps) {
                 <meta name="viewport" content="width=device-width,initial-scale=1" />
 
                 <link rel="canonical" href="https://rakotoew.fr" />
+                <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;700&display=swap"
+                      rel="stylesheet" />
                 <link rel="icon" href="/android-chrome-512x512.png" />
                 <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 

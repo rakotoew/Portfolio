@@ -55,17 +55,40 @@
     },
     "experiences": {
         "title": "Experiences",
+        "work": "Travail",
+        "personal": "Projets Personnels",
+        "univ": "Projets Universitaires",
         "exp1": {
             "title": "CA-TS",
             "year": "2024",
             "job": "dev",
-            "description": "test lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+            "description": "test lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+            "comp_title": "Technologies/Frameworks utilisés",
+            "comp": [
+                "Java",
+                "Spring",
+                "Angular",
+                "SQL",
+                "Git",
+                "Jenkins",
+                "Docker"
+            ]
         },
         "exp2": {
             "title": "CA-TS",
             "year": "2024",
             "job": "dev",
-            "description": "test"
+            "description": "test",
+            "comp_title": "Technologies/Frameworks utilisés",
+            "comp": [
+                "Java",
+                "Spring",
+                "Angular",
+                "SQL",
+                "Git",
+                "Jenkins",
+                "Docker"
+            ]
         }
     }
 }

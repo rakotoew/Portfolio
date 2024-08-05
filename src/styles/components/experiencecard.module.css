@@ -1,39 +1,39 @@
 .card_container{
-	display: flex;
-	padding: 5px;
+	display: grid;
 	margin: 0 5em 1em;
 	max-width: 90%;
-	background-color: var(--color-secondary);
 	border-radius: 1em;
-	.left_part{
-		display: flex;
-		justify-content: center;
-		justify-items: center;
-		flex-direction: column;
-		padding: 1rem;
-		flex: 0 0 300px;
-
+	grid-template-columns: 300px 1fr; /* Left part fixed at 150px, right part takes the remaining space */
+	gap: 1rem;
 		.title{
 			color: var(--color-accent-secondary);
-
 		}
 		.year{
-			color: var(--color-accent-secondary);
-		}
-	}
-	.right_part{
-		justify-content: left;
-		justify-items: left;
-		display: flex;
-		flex-direction: column;
-		padding: 1rem;
-		flex: 1;
+			border-top: var(--color-tertiary) solid 5px;
+			padding-top: 5px;
+			margin: 0 3rem 0 0;
+			color: var(--color-tertiary);
 
+		}
 		.job{
-			color: var(--color-accent);
+			border-top: var(--color-tertiary) solid 5px;
+			padding-top: 5px;
+			color: var(--color-tertiary);
+			margin: 0 0 2rem;
 		}
 		.description{
-			color: var(--color-accent-secondary);
+			color: var(--color-tertiary);
+			margin: 0;
+		}
+	.comp_title{
+		color: var(--color-tertiary);
+		margin: 5px;
+	}
+	.competences{
+		list-style-type: none;
+		.comp{
+			color: var(--color-tertiary) !important;
+			margin: 0;
 		}
 	}
 }
@@ -42,10 +42,8 @@
 @media screen and (max-width: 1000px) {
 	.card_container{
 		margin: 0 3em 1em;
-		.left_part{
-			flex: 0 0 150px;
+		grid-template-columns: 300px 1fr; /* Left part fixed at 150px, right part takes the remaining space */
 
-		}
 	}
 }
 
@@ -53,9 +51,7 @@
 @media screen and (max-width: 800px) {
 	.card_container{
 		margin: 0 1em 1em;
-		.left_part{
-			flex: 0 0 150px;
+		grid-template-columns: 150px 1fr; /* Left part fixed at 150px, right part takes the remaining space */
 
-		}
-}
+	}
 }

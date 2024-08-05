@@ -7,9 +7,26 @@ function Experience(): JSX.Element{
     return (
         <div className={styles.experiences_container}>
             <h1 className={styles.title}>{t("title")}</h1>
-            <div className={styles.experience_list}>
-                <ExperienceCard path="experiences.exp1"/>
-                <ExperienceCard path="experiences.exp2"/>
+            <div className={styles.list_container}>
+                <p className={styles.list_title}>{t("work")}</p>
+                <div className={styles.experience_list}>
+                    <ExperienceCard path="experiences.exp1" />
+                    <ExperienceCard path="experiences.exp2" />
+                </div>
+            </div>
+            <div className={styles.list_container}>
+                <p className={styles.list_title}>{t("personal")}</p>
+                <div className={styles.experience_list}>
+                    <ExperienceCard path="experiences.exp1" />
+                    <ExperienceCard path="experiences.exp2" />
+                </div>
+            </div>
+            <div className={styles.list_container}>
+                <p className={styles.list_title}>{t("univ")}</p>
+                <div className={styles.experience_list}>
+                    <ExperienceCard path="experiences.exp1" />
+                    <ExperienceCard path="experiences.exp2" />
+                </div>
             </div>
         </div>
     );

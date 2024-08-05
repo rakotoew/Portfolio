@@ -55,17 +55,40 @@
     },
     "experiences": {
         "title": "Experiences",
+        "work": "Work",
+        "personal": "Personal Projects",
+        "univ": "University Projects",
         "exp1": {
             "title": "CA-TS",
-            "year": "2024",
-            "job": "dev",
-            "description": "lorem ipsum kjasfhalksdhlk asdklhfgaslk aksjdf hkajs aksdjf akljhf jdsahf jka jdsafh akj sjadf hkadsj  jsdfh akjs hd sdjkfh aklsdhf  jkdsfh dakdjfd k jkasddfh asjhdff jkadsfh jadh sjdkafhjahfd adkjfhak jhhsdfjhalkjsfhdkaj akdsf hjdsfa hjkdsah dsajkf jhahdg sdhag fjah hdagsf shdgsjhdgf hjsdg fhadsg fhjasgdf hjasgdf jxhbvnbmzxcbv mxncbv mzxn"
+            "year": "Sept. 2023 - Sept. 2024",
+            "job": "Developper FullStack (Alternance)",
+            "description": "lorem ipsum kjasfhalksdhlk asdklhfgaslk aksjdf hkajs aksdjf akljhf jdsahf jka jdsafh akj sjadf hkadsj. jsdfh akjs hd sdjkfh aklsdhf  jkdsfh dakdjfd k jkasddfh asjhdf jkadsfh jadh sjdkafhjahfd adkjfhak jhhsdfjhalkjsfhdkaj akdsf hjdsfa hjkdsah dsajkf jhahdg sdhag fjah hdagsf shdgsjhdgf hjsdg fhadsg fhjasgdf hjasgdf jxhbvnbmzxcbv mxncbv mzxn askdjhfajdsk asdlkfh aksdj adksjf sajdkfh askjd  jksdajkhfk asdjk fkajsdf sadjkf hklasdjh fal ksdjf haskldjf dasjkfh laksd  sadkjf haskj dfaksljdhf  ajksdfh aksldj a kjlsdfh lkasjd ajksdhf lkasdj alk sjdfh ksldaj kasdjlf halsk",
+            "comp_title": "Languages/Frameworks used",
+            "comp": [
+                "Java",
+                "Spring",
+                "Angular",
+                "SQL",
+                "Git",
+                "Jenkins",
+                "Docker"
+            ]
         },
         "exp2": {
             "title": "Credit Agricole Technologies & Services",
-            "year": "2024",
-            "job": "dev",
-            "description": "lorem ipsum kjasfhalksdhlk asdklhfgaslk aksjdf hkajs aksdjf akljhf jdsahf jka jdsafh akj sjadf hkadsj  jsdfh akjs hd sdjkfh aklsdhf  jkdsfh dakdjfd k jkasddfh asjhdff jkadsfh jadh sjdkafhjahfd adkjfhak jhhsdfjhalkjsfhdkaj akdsf hjdsfa hjkdsah dsajkf jhahdg sdhag fjah hdagsf shdgsjhdgf hjsdg fhadsg fhjasgdf hjasgdf jxhbvnbmzxcbv mxncbv mzxn"
+            "year": "May. 2023 - Sept. 2023",
+            "job": "Developper Fullstack (Internship)",
+            "description": "lorem ipsum kjasfhalksdhlk asdklhfgaslk aksjdf hkajs aksdjf akljhf jdsahf jka jdsafh akj sjadf hkadsj  jsdfh akjs hd sdjkfh aklsdhf  jkdsfh dakdjfd k jkasddfh asjhdff jkadsfh jadh sjdkafhjahfd adkjfhak jhhsdfjhalkjsfhdkaj akdsf hjdsfa hjkdsah dsajkf jhahdg sdhag fjah hdagsf shdgsjhdgf hjsdg fhadsg fhjasgdf hjasgdf jxhbvnbmzxcbv mxncbv mzxn",
+            "comp_title": "Languages/Frameworks used",
+            "comp": [
+                "Java",
+                "Spring",
+                "Angular",
+                "SQL",
+                "Git",
+                "Jenkins",
+                "Docker"
+            ]
         }
     }
 }
