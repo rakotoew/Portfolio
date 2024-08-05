@@ -36,9 +36,9 @@ function Index(): JSX.Element{
             <div className={styles.card_container}>
                 <Card title={t("card1.title")} description={t("card1.description")}
                       imagePath="/professionnal_cropped.png" link="/about" />
-                <Card title={t("card2.title")} description={t("card2.description")} imagePath="/framework-laptop.jpg"
+                <Card title={t("card2.title")} description={t("card2.description")} imagePath="/laptoptech.jpg"
                       link="/experience" />
-                <Card title={t("card3.title")} description={t("card3.description")} imagePath="/tech-server.jpg"
+                <Card title={t("card3.title")} description={t("card3.description")} imagePath="/framework-laptop.jpg"
                       link="stack" />
             </div>
         </div>
