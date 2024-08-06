@@ -123,8 +123,8 @@
         },
         "exp6": {
             "title": "Rec'Appel",
-            "year": "Janvier 2024 - Fevrier 2024",
-            "job": "Développeur Fullstack",
+            "year": "Octobre 2022 - Mai 2023",
+            "job": "Développeur FrontEnd",
             "description": "Dans le cadre d'un projet Universitaire, j'ai réalisé, au seins d'une équipe de 4 personne, un outil permettant d'analyser les données des appels téléphoniques des clients pour le CA-TS. L'outil permet de visualiser le routage des appels, les temps d'attente, etc",
             "comp_title": "Technologies/Frameworks utilisés",
             "comp": [
@@ -135,7 +135,7 @@
         },
         "exp7": {
             "title": "Save Humanity",
-            "year": "Novembre 2023 - Decembre 2023",
+            "year": "Novembre 2022 - Decembre 2022",
             "job": "Développeur Fullstack",
             "description": "Dans le cadre de l'enseignement Développement Mobile, j'ai réalisé une application Mobile inspiré du jeux Reign, avec un export des stats vers un BackEnd en Next,js, et un affichage de ces statistiques sur une webApp en Angular",
             "comp_title": "Technologies/Frameworks utilisés",
