@@ -16,7 +16,6 @@ function Index(): JSX.Element{
     return (
         <div className={styles.about_page}>
             <div className={styles.title_container}>
-                <Image className={styles.profile_picture} src="/profile.png" alt="profile picture" width={2500} height={2500} />
                 <div className={styles.text_container}>
                     <p className={styles.description}>{t("about.description")}</p>
                     <h1 className={styles.name}>Ewan Rakoto<span className={styles.animated_letter}>anosy</span></h1>
