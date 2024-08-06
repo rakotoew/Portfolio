@@ -7,7 +7,7 @@
 	.title{
 		font-size: 600%;
 		margin-top: 10rem;
-		margin-bottom: 10rem;
+		margin-bottom: 8rem;
 		text-align: center;
 		font-weight: bold;
 		line-height: 80%;
@@ -31,8 +31,9 @@
 		align-items: end;
 		margin-bottom: 2em;
 		.text_right{
+			margin-bottom: 0;
 			margin-left: 1em;
-			margin-right: 5em;
+			margin-right: 2em;
 			padding-left: 1em;
 			padding-right: 1em;
 			padding-bottom: 1em;
@@ -47,27 +48,89 @@
 		align-items: end;
 		margin-bottom: 2em;
 		.text_left{
+			margin-bottom: 0;
 			margin-right: 1em;
-			margin-left: 5em;
+			margin-left: 2em;
 			padding-right: 1em;
 			padding-left: 1em;
 			padding-bottom: 1em;
 			border-right: var(--color-accent-secondary) solid 1px;
 			border-bottom: var(--color-accent-secondary) solid 5px;
 			color: var(--color-accent-secondary);
+
 		}
 	}
 	.image_pro{
 		aspect-ratio: 3/4;
-		margin-left: 1em;
+		margin-left: 2em;
 		width: max-content;
+		height: 500px;
+		border-radius: 5px;
 	}
 	.image_ireland{
 		aspect-ratio: 1/1;
-		margin-right: 1em;
+		margin-right: 2em;
+		height: 500px;
+		border-radius: 5px;
 	}
 	.image_vtt{
 		aspect-ratio: 3/2;
-		margin-left: 1em;
+		margin-left: 2em;
+		height: 500px;
+		border-radius: 5px;
+	}
+}
+
+@media screen and (max-width: 1000px){
+	.about_container {
+		.title {
+			width: fit-content;
+			font-size: 70px;
+			margin-bottom: 10rem;
+		}
+
+		.left_container {
+			flex-direction: column;
+			align-items: start;
+			.text_right{
+				margin-bottom: 0;
+				margin-right: 10px;
+				margin-left: 10px;
+			}
+		}
+
+		.right_container {
+			flex-direction: column;
+			align-items: end;
+			.text_left{
+				margin-bottom: 0;
+				margin-right: 10px;
+				margin-left: 10px;
+			}
+		}
+		.image_pro{
+			margin-left: 10px;
+			margin-right: 10px;
+			width: calc(100% - 20px);
+			height: fit-content;
+			max-height: 500px;
+			max-width: 375px;
+		}
+		.image_ireland{
+			margin-left: 10px;
+			margin-right: 10px;
+			width: calc(100% - 20px);
+			height: fit-content;
+			max-height: 500px;
+			max-width: 500px;
+		}
+		.image_vtt{
+			margin-left: 10px;
+			margin-right: 10px;
+			width: calc(100% - 20px);
+			height: fit-content;
+			max-height: 500px;
+			max-width: 750px;
+		}
 	}
 }
