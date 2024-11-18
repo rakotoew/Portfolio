@@ -51,10 +51,101 @@
     },
     "about": {
         "name": "Ewan Rakotoanosy",
-        "text": "Work in progress"
+        "text": "Work in progress",
+        "text1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "text2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "text3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     "experiences": {
-        "text": "Work in progress"
+        "title": "Experiences",
+        "work": "Experiences Professionnelles",
+        "exp1": {
+            "title": "Crédit Agricole Technologies & Services",
+            "year": "Sept. 2023 - Sept. 2024",
+            "job": "Développeur Fullstack (Alternance)",
+            "description": "Alternance en tant que développeur au sein de la squad Fraude du CA-TS. J'ai pu travailler sur le Back-End de l'outil de contestation des paiements cartes mis à disposition pour l'ensemble des 40 Caisses du Credit Agricole. Back-end en realise en JAVA avec Spring Boot, avec une Base de données mySQL. J'ai également pu appronfondir le travail que j'avais realisé sur la webapp de la squad Fraude qui nous permet de piloter l'outil Contestation Carte (WebApp avec un Front en angular, un bff et un back en JAVA Spring)",
+            "comp_title": "Technologies/Frameworks utilisés",
+            "comp": [
+                "Java / Spring Boot",
+                "Angular",
+                "mySQL",
+                "Docker / Kubernetes"
+            ]
+        },
+        "exp2": {
+            "title": "Credit Agricole Technologies & Services",
+            "year": "Mai 2023 - Sept. 2023",
+            "job": "Développeur Fullstack (Stage)",
+            "description": "Stage en tant que développeur au sein de la Squad Fraude du CA-TS. J'ai pu realiser une WebApp à destination de la Squad Fraude pour faciliter le pilotage de l'outil de contestation des paiements cartes du Credit Agricole. Cette WebApp est realisee en Angular pour le Front, en JAVA Spring pour le Back et le Back-For-Front et en mySQL pour la base de données.",
+            "comp_title": "Technologies/Frameworks utilisés",
+            "comp": [
+                "Java / Spring Boot",
+                "Angular",
+                "mySQL",
+                "Docker / Kubernetes"
+            ]
+        },
+        "exp3": {
+            "title": "VTT Pays de Gavot",
+            "year": "Mars 2023 - Mai 2023",
+            "job": "Développeur Fullstack ",
+            "description": "Développement d’une application avec un Front-end Angular, un API Nestjs et une base de donnée SQL pour gérer une compétition VTT, avec la génération de carte de notation, la saisie des résultats de l’épreuve technique ‘Trial’, la génération du classement, etc.",
+            "comp_title": "Technologies/Frameworks utilisés",
+            "comp": [
+                "Nest.js",
+                "Angular",
+                "mySQL"
+            ]
+        },
+        "personal": "Projets Personnels",
+        "exp4": {
+            "title": "Occult",
+            "year": "Mars 2024 - Actuellement",
+            "job": "Développeur Fullstack",
+            "description": "Développement d'un outil permettant de stocker de maniere sécurisé des fichiers sur n'importe quel platforme de stockage prise en charge (ex: SFTP, Google Drive, S3 Bucket). Développement en cours avec une équipe de 3 personnes",
+            "comp_title": "Technologies/Frameworks utilisés",
+            "comp": [
+                "Java /Spring Boot",
+                "Angular"
+            ]
+        },
+        "univ": "Projets Universitaires",
+        "exp5": {
+            "title": "Factorio Items Helper",
+            "year": "Janvier 2024 - Fevrier 2024",
+            "job": "Développeur Fullstack",
+            "description": "Dans le cadre de l'enseignement Ingénierie des connaissances, j'ai réalisé une webApp pour aider les joueurs de Factorio à trouver les recettes de fabrication des items du jeu, ainsi que les ratios de production.",
+            "comp_title": "Technologies/Frameworks utilisés",
+            "comp": [
+                "Nest.js",
+                "Angular"
+            ]
+        },
+        "exp6": {
+            "title": "Rec'Appel",
+            "year": "Octobre 2022 - Mai 2023",
+            "job": "Développeur FrontEnd",
+            "description": "Dans le cadre d'un projet Universitaire, j'ai réalisé, au seins d'une équipe de 4 personne, un outil permettant d'analyser les données des appels téléphoniques des clients pour le CA-TS. L'outil permet de visualiser le routage des appels, les temps d'attente, etc",
+            "comp_title": "Technologies/Frameworks utilisés",
+            "comp": [
+                "Java / Spring Boot",
+                "Angular",
+                "mySQL"
+            ]
+        },
+        "exp7": {
+            "title": "Save Humanity",
+            "year": "Novembre 2022 - Decembre 2022",
+            "job": "Développeur Fullstack",
+            "description": "Dans le cadre de l'enseignement Développement Mobile, j'ai réalisé une application Mobile inspiré du jeux Reign, avec un export des stats vers un BackEnd en Next,js, et un affichage de ces statistiques sur une webApp en Angular",
+            "comp_title": "Technologies/Frameworks utilisés",
+            "comp": [
+                "React Native",
+                "Nest.js",
+                "Angular",
+                "mySQL"
+            ]
+        }
     }
 }
 

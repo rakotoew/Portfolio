@@ -1,0 +1,57 @@
+.card_container{
+	display: grid;
+	margin: 0 5em 1em;
+	max-width: 90%;
+	border-radius: 1em;
+	grid-template-columns: 300px 1fr; /* Left part fixed at 150px, right part takes the remaining space */
+	gap: 1rem;
+		.title{
+			color: var(--color-accent-secondary);
+		}
+		.year{
+			border-top: var(--color-tertiary) solid 5px;
+			padding-top: 5px;
+			margin: 0 3rem 0 0;
+			color: var(--color-tertiary);
+
+		}
+		.job{
+			border-top: var(--color-tertiary) solid 5px;
+			padding-top: 5px;
+			color: var(--color-tertiary);
+			margin: 0 0 2rem;
+		}
+		.description{
+			color: var(--color-tertiary);
+			margin: 0;
+		}
+	.comp_title{
+		color: var(--color-tertiary);
+		margin: 5px;
+	}
+	.competences{
+		list-style-type: none;
+		.comp{
+			color: var(--color-tertiary) !important;
+			margin: 0;
+		}
+	}
+}
+
+
+@media screen and (max-width: 1000px) {
+	.card_container{
+		margin: 0 3em 1em;
+		grid-template-columns: 300px 1fr; /* Left part fixed at 150px, right part takes the remaining space */
+
+	}
+}
+
+
+@media screen and (max-width: 800px) {
+	.card_container{
+		margin: 0 1em 1em;
+		grid-template-columns: 150px 1fr; /* Left part fixed at 150px, right part takes the remaining space */
+
+	}
+}

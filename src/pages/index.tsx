@@ -1,6 +1,6 @@
     import styles from "@styles/pages/index.module.css";
 
-import Card from "@components/sections/Card";
+import Card from "@components/Card";
 import { GetStaticProps } from "next";
 import { useTranslations } from "use-intl";
 import Link from "next/link";
@@ -16,10 +16,9 @@ function Index(): JSX.Element{
     return (
         <div className={styles.about_page}>
             <div className={styles.title_container}>
-                <Image className={styles.profile_picture} src="/profile.png" alt="profile picture" width={2500} height={2500} />
                 <div className={styles.text_container}>
                     <p className={styles.description}>{t("about.description")}</p>
-                    <h1 className={styles.name}>{t("about.name")}</h1>
+                    <h1 className={styles.name}>Ewan Rakoto<span className={styles.animated_letter}>anosy</span></h1>
                     <div className={styles.link_icon_container}>
                         <Link href="https://www.github.com/rakotoew" className={styles.icon}>
                             <FontAwesomeIcon icon={faGithub} size="3x" />
@@ -36,9 +35,9 @@ function Index(): JSX.Element{
             <div className={styles.card_container}>
                 <Card title={t("card1.title")} description={t("card1.description")}
                       imagePath="/professionnal_cropped.png" link="/about" />
-                <Card title={t("card2.title")} description={t("card2.description")} imagePath="/framework-laptop.jpg"
+                <Card title={t("card2.title")} description={t("card2.description")} imagePath="/laptoptech.jpg"
                       link="/experience" />
-                <Card title={t("card3.title")} description={t("card3.description")} imagePath="/tech-server.jpg"
+                <Card title={t("card3.title")} description={t("card3.description")} imagePath="/framework-laptop.jpg"
                       link="stack" />
             </div>
         </div>

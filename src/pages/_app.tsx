@@ -3,8 +3,9 @@ import type {AppProps} from "next/app";
 import Head from "next/head";
 import {NextIntlProvider} from "next-intl";
 import {GetStaticProps} from "next";
-import Footer from "@components/Footer";
-import Header from "@components/Header";
+import Footer from "@components/sections/Footer";
+import Header from "@components/sections/Header";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function App({Component, pageProps, router}: AppProps) {
     return (
@@ -27,6 +28,8 @@ export default function App({Component, pageProps, router}: AppProps) {
                 <meta name="viewport" content="width=device-width,initial-scale=1" />
 
                 <link rel="canonical" href="https://rakotoew.fr" />
+                <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;700&display=swap"
+                      rel="stylesheet" />
                 <link rel="icon" href="/android-chrome-512x512.png" />
                 <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
@@ -35,6 +38,7 @@ export default function App({Component, pageProps, router}: AppProps) {
                 <Header />
                 <Component {...pageProps} key={router.route}/>
                 <Footer />
+                <Analytics/>
             </NextIntlProvider>
         </>
     );

@@ -1,7 +1,7 @@
 import React from "react";
 import {GetStaticProps} from "next";
 import {useTranslations} from "use-intl";
-import Error from "../components/sections/Error";
+import Error from "@components/Error";
 
 export default function NotFoundPage(): JSX.Element {
 

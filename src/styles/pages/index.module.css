@@ -7,7 +7,7 @@
 	width: 100%;
 	.title_container {
 		margin-top: 5rem;
-		margin-bottom: 8rem;
+		margin-bottom: 1rem;
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -20,45 +20,45 @@
 			border-radius: 50%;
 		}
 		.text_container {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
 			.description {
 				text-align: center;
-				margin-top: 1rem;
+				margin-top: 0;
 				font-size: 20px;
 				font-weight: normal;
 				margin-bottom: 10px;
 				--custom-color: color-mix(in srgb, var(--color-accent) 80%, transparent);
 				color: var(--custom-color);
 				text-shadow: 0 0 7px var(--custom-color);
-				animation-name: flicker-in-1;
-				animation-duration: 2s;
-				animation-delay: 0.1s;
-				animation-timing-function: ease-in-out;
-				animation-iteration-count: 1;
 			}
 
 			.name {
 				text-align: center;
 				font-weight: bold;
-				margin: 0 0 1rem !important;
+				margin: 0 0 0.5rem !important;
 				color: #ffffff;
 				text-shadow: 0 0 7px #fff,
 				0 0 10px var(--color-tertiary),
 				0 0 21px var(--color-tertiary),
 				0 0 42px var(--color-tertiary);
 
-				animation-name: flicker-in-1;
-				animation-duration: 2s;
-				animation-delay: 0.1s;
-				animation-timing-function: ease-in-out;
-				animation-iteration-count: 1;
+
+				.animated_letter{
+					animation-name: flicker-in-1;
+					animation-duration: 2s;
+					animation-timing-function: ease-in-out;
+					animation-iteration-count: 1;
+				}
 			}
 			.link_icon_container {
 				display: flex;
 				justify-content: space-around;
-				width: 90%;
+				width: 60%;
 				.icon {
 					color: var(--color-accent);
-					width: 10%;
+					width: 15%;
 					transition: transform 0.5s;
 
 				}
@@ -79,6 +79,7 @@
 		position: relative;
 		grid-template-columns: repeat(3, minmax(200px, 1fr));
 		width: 95%;
+		margin-bottom: 1rem;
 	}
 }
 
@@ -107,7 +108,13 @@
 			}
 		}
 		.name {
-			font-size: 300%;
+			font-size: 350%;
+		}
+	}
+	.link_icon_container{
+		width: 70%;
+		.icon {
+			width: 20%;
 		}
 	}
 }
@@ -122,12 +129,18 @@
 			}
 		}
 		.name {
-			font-size: 200%;
+			font-size: 250%;
 			margin-bottom: 10%;
 		}
 
 		.card_container {
 			grid-template-columns: repeat(1, minmax(200px, 1fr));
+		}
+	}
+	.link_icon_container{
+		width: 90%;
+		.icon{
+			width: 30%;
 		}
 	}
 }
