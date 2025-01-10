@@ -9,15 +9,23 @@ function About(): JSX.Element {
             <h1 className={styles.title}>{t("name")}</h1>
             <div className={styles.left_container}>
                 <Image className={styles.image_pro} src="/professionnal.jpg" alt='Ewan Rakotoanosy' width={750} height={1000} />
-                <p className={styles.text_right}>{t("text1")}</p>
+                <div className={styles.text_right}>
+                    <p className={styles.text_content}>{t("text1")}</p>
+                    <p className={styles.text_content}>{t("text1_1")}</p>
+                    <p className={styles.text_content}>{t("text1_2")}</p>
+                </div>
             </div>
             <div className={styles.right_container}>
-                <Image className={styles.image_ireland} src="/profile.png" alt='Ewan Rakotoanosy' width={750} height={750} />
-                <p className={styles.text_left}>{t("text2")}</p>
+                <Image className={styles.image_ireland} src="/profile.png" alt='Ewan Rakotoanosy' width={500} height={500} />
+                <div className={styles.text_left}>
+                    <p className={styles.text_content}>{t("text2")}</p>
+                </div>
             </div>
             <div className={styles.left_container}>
                 <Image className={styles.image_vtt} src="/vttCroixdeFrix.PNG" alt='Ewan Rakotoanosy' width={750} height={500} />
-                <p className={styles.text_right}>{t("text3")}</p>
+                <div className={styles.text_right}>
+                    <p className={styles.text_content}>{t("text3")}</p>
+                </div>
             </div>
         </div>
     );

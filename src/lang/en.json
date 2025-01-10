@@ -52,9 +52,11 @@
     "about": {
         "name": "Ewan Rakotoanosy",
         "text": "Work in progress",
-        "text1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "text2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "text3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "text1": "I'm a Software Engineer",
+        "text1_1": "Graduated with a Master's degree in Computer Science from the University of Savoy",
+        "text1_2": "With a year in Erasmus in Ireland \uD83C\uDDEE\uD83C\uDDEA, at Dundalk Institute of Technology (BSc Hons in Computing in Software Development)",
+        "text2": "I've a strong interest in IT and development, I am continually developing my skills by carrying out various projects. But I'm also passionate about video games \uD83C\uDFAE strategy, 4X, RPG, as well as JDR, manga, novels (SF and Heroic Fantasy).",
+        "text3": "Also a great sportsman, I do Enduro mountain biking \uD83D\uDEB5 in competition at regional and national level \uD83C\uDDEB\uD83C\uDDF7 as well as skiing in winter \uD83C\uDFC2, climbing \uD83E\uDDD7, etc..."
     },
     "experiences": {
         "title": "Experiences",

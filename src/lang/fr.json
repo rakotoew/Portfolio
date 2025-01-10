@@ -52,9 +52,11 @@
     "about": {
         "name": "Ewan Rakotoanosy",
         "text": "Work in progress",
-        "text1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "text2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "text3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "text1": "Je suis Ingenieur logiciel ",
+        "text1_1": "Diplomé d'un Master en Informatique a l'Université Savoie Mont Blanc",
+        "text1_2": "Fort d'une année en Erasmus en Irlande \uD83C\uDDEE\uD83C\uDDEA, à Dundalk Institute of technology (BSc Hons in Computing in Software Development)",
+        "text2": "Passionné par l'informatique et le développement, je développe continuellement mes competences en réalisant divers projets. Mais aussi passionné de jeux vidéos \uD83C\uDFAE de stratégie, 4X, RPG, ainsi que de JDR, de mangas, de Romans (SF et Heroic Fantasy).",
+        "text3": "Egalement grand sportif, Je fais du VTT Enduro \uD83D\uDEB5 en compétition au niveau régional et national \ud83c\uddeb\ud83c\uddf7 ainsi que du ski l'hiver \uD83C\uDFC2, de l'escalade \uD83E\uDDD7, etc..."
     },
     "experiences": {
         "title": "Experiences",
