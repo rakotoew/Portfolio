@@ -64,8 +64,8 @@
         "exp1": {
             "title": "Crédit Agricole Technologies & Services",
             "year": "Sept. 2023 - Sept. 2024",
-            "job": "Developper Fullstack (Apprenticeship)",
-            "description": "Alternance en tant que développeur au sein de la squad Fraude du CA-TS. J'ai pu travailler sur le Back-End de l'outil de contestation des paiements cartes mis à disposition pour l'ensemble des 40 Caisses du Credit Agricole. Back-end en realise en JAVA avec Spring Boot, avec une Base de données mySQL. J'ai également pu appronfondir le travail que j'avais realisé sur la webapp de la squad Fraude qui nous permet de piloter l'outil Contestation Carte (WebApp avec un Front en angular, un bff et un back en JAVA Spring)",
+            "job": "Fullstack Developer(Apprenticeship)",
+            "description": "Apprenticeship as a developer within the Fraud squad of CA-TS. I worked on the Back-End of the card payment dispute tool made available to all 40 Credit Agricole branches. Back-end realized in JAVA with Spring Boot, with a mySQL database. I was also able to deepen the work I had done on the Fraud squad webapp which allows us to pilot the Card Dispute tool (WebApp with an angular Front, a bff and a back in JAVA Spring)",
             "comp_title": "Technology/Frameworks used",
             "comp": [
                 "Java / Spring Boot",
@@ -77,8 +77,8 @@
         "exp2": {
             "title": "Credit Agricole Technologies & Services",
             "year": "May 2023 - Sept. 2023",
-            "job": "Developper Fullstack (Internship)",
-            "description": "Stage en tant que développeur au sein de la Squad Fraude du CA-TS. J'ai pu realiser une WebApp à destination de la Squad Fraude pour faciliter le pilotage de l'outil de contestation des paiements cartes du Credit Agricole. Cette WebApp est realisee en Angular pour le Front, en JAVA Spring pour le Back et le Back-For-Front et en mySQL pour la base de données.",
+            "job": "Fullstack Developer (Internship)",
+            "description": "Internship as a developer within the CA-TS Fraud squad. I was able to create a WebApp for the Fraud squad to facilitate the piloting of the Credit Agricole card payment dispute tool. This WebApp is made in Angular for the Front, in JAVA Spring for the Back and the Back-For-Front and in mySQL for the database.",
             "comp_title": "Technology/Frameworks used",
             "comp": [
                 "Java / Spring Boot",
@@ -90,8 +90,8 @@
         "exp3": {
             "title": "VTT Pays de Gavot",
             "year": "March 2023 - May 2023",
-            "job": "Développeur Fullstack ",
-            "description": "Développement d’une application avec un Front-end Angular, un API Nestjs et une base de donnée SQL pour gérer une compétition VTT, avec la génération de carte de notation, la saisie des résultats de l’épreuve technique ‘Trial’, la génération du classement, etc.",
+            "job": "Fullstack Developer",
+            "description": "Development of an application with an Angular Front-end, a Nestjs API and a SQL database to manage a mountain bike competition, with the generation of a scorecard, the entry of the results of the 'Trial' technical event, the generation of the ranking, etc.",
             "comp_title": "Technology/Frameworks used",
             "comp": [
                 "Nest.js",
@@ -103,8 +103,8 @@
         "exp4": {
             "title": "Occult",
             "year": "March 2024 - Now",
-            "job": "Développeur Fullstack",
-            "description": "Développement d'un outil permettant de stocker de maniere sécurisé des fichiers sur n'importe quel platforme de stockage prise en charge (ex: SFTP, Google Drive, S3 Bucket). Développement en cours avec une équipe de 3 personnes",
+            "job": "Fullstack Developer",
+            "description": "Development of a tool allowing to securely store files on any supported storage platform (ex: SFTP, Google Drive, S3 Bucket). Development in progress with a team of 3 people",
             "comp_title": "Technology/Frameworks used",
             "comp": [
                 "Java /Spring Boot",
@@ -115,9 +115,9 @@
         "exp5": {
             "title": "Factorio Items Helper",
             "year": "January 2024 - February 2024",
-            "job": "Technology/Frameworks used",
-            "description": "Dans le cadre de l'enseignement Ingénierie des connaissances, j'ai réalisé une webApp pour aider les joueurs de Factorio à trouver les recettes de fabrication des items du jeu, ainsi que les ratios de production.",
-            "comp_title": "Technologies/Frameworks utilisés",
+            "job": "Fullstack Developer",
+            "description": "As part of the Knowledge Engineering course in University of SavoY, I created a webApp to help Factorio players find the crafting recipes for the game's items, as well as production ratios.",
+            "comp_title": "Technology/Frameworks used",
             "comp": [
                 "Nest.js",
                 "Angular"
@@ -126,8 +126,8 @@
         "exp6": {
             "title": "Rec'Appel",
             "year": "october 2022 - May 2023",
-            "job": "Developper FrontEnd",
-            "description": "Dans le cadre d'un projet Universitaire, j'ai réalisé, au seins d'une équipe de 4 personne, un outil permettant d'analyser les données des appels téléphoniques des clients pour le CA-TS. L'outil permet de visualiser le routage des appels, les temps d'attente, etc",
+            "job": "Front-end Developer ",
+            "description": "As part of a University project, I created, within a team of 4 people, a tool to analyze customer phone call data for CA-TS. The tool allows you to visualize call routing, wait times, etc.",
             "comp_title": "Technology/Frameworks used",
             "comp": [
                 "Java / Spring Boot",
@@ -138,8 +138,8 @@
         "exp7": {
             "title": "Save Humanity",
             "year": "November 2022 - December 2022",
-            "job": "Développeur Fullstack",
-            "description": "Dans le cadre de l'enseignement Développement Mobile, j'ai réalisé une application Mobile inspiré du jeux Reign, avec un export des stats vers un BackEnd en Next,js, et un affichage de ces statistiques sur une webApp en Angular",
+            "job": "Mobile developer",
+            "description": "As part of the Mobile Development course, I created a Mobile application inspired by the Reign game, with an export of stats to a Next.js BackEnd, and a display of these statistics on an Angular webApp",
             "comp_title": "Technology/Frameworks used",
             "comp": [
                 "React Native",

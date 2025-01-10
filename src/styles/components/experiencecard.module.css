@@ -1,6 +1,6 @@
 .card_container{
 	display: grid;
-	margin: 0 5em 1em;
+	margin: 2em 5em 1em;
 	max-width: 90%;
 	border-radius: 1em;
 	grid-template-columns: 300px 1fr; /* Left part fixed at 150px, right part takes the remaining space */
